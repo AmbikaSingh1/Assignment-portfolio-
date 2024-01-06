@@ -1,0 +1,362 @@
+body{
+    margin-bottom: 2em;
+}
+.container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head-container{
+    display: flex;
+    justify-content: space-around;
+    height:4em;
+    width:100%;
+    background-color: white;
+    position: fixed;
+}
+.dropdown{
+    display: none;
+}
+.user-name{
+    margin-left:-10em;
+    color:blue;
+}
+.nav-lap a{
+    text-decoration-line: none;
+    color:black;
+    padding:0.5em;
+}
+.nav-lap a:hover{
+    color:blue;
+    font-style: italic;
+}
+
+#about .introduction pre{
+    font-size: larger;
+    font-style: oblique;
+}
+.portfolio-section h3{
+    margin-left: 35%;
+    margin-bottom: 1em;
+    font-weight: bolder;
+}
+img{
+    width:1100px;
+    height:350px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+.introduction{
+    width: 75%;
+
+}
+.introduction b{
+    font-size: x-large;
+}
+.introduction pre{
+    padding:1px;
+    width:auto;
+
+}
+.main-container .aside ul{
+    list-style-type: none;
+}
+.main-container .aside ul>li a{
+    text-decoration-line: none;
+    color:black;
+}
+.main-container .aside ul>li a:hover{
+    color:blue;
+    font-style: italic;
+}
+
+.aside b{
+font-size: x-large;
+padding-left: 1px;
+color:blue;
+}
+button{
+    background-color:pink;
+    border:3px solid blue;
+}
+button a{
+    text-decoration-line: none;
+
+}
+button a:hover{
+    text-decoration-line: underline;
+}
+.portfolio{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio a{
+    text-decoration-line: none;
+    color:blueviolet
+}
+.portfolio-section h3{
+    font-size:xx-large;
+}
+.cardss{
+    display:flex;
+    justify-content:space-around;
+    height:15em;
+}
+
+.contact-container{
+    padding:7em;
+    padding-top: 2em;
+
+}
+.skill-container h2{
+    width:50%;
+}
+#skill h3{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 50%;
+    font-weight: bolder;
+    }
+    #skill .cards{
+        height:150px;
+
+    }
+.contact{
+    border:1px solid blue;
+    display: flex;
+    flex-direction:column;
+    justify-items: center;
+    align-items: center;
+}
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+.contact b{
+    font-size: x-large;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    
+}
+form input[type="text"]{
+       border-color:blue;
+}
+form input[type="email"]{
+    border-color:blue;
+}
+textarea{
+    border:1px solid blue;
+    width:auto;
+}
+form input[type="submit"]{
+    border-color:blue;
+}
+form label{
+    color:blue;
+    font-size: x-large;
+    padding:5px;
+}
+
+
+.social{
+    margin-top: 1em;
+    display:flex;
+    flex-direction: column;
+    border:1px solid gray;
+    position:fixed;
+    
+}
+.fa{
+    margin:0px;
+    padding: 20px;
+    text-decoration-line: none;
+    font-size: 1.6em;
+    width: 50px;
+    text-align: center;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-github {
+    background: #55ACEE;
+    color: white;
+}
+.fa-twitter{
+    background: #125688;
+    color: white;
+}
+.social a{
+    text-decoration: none;
+}
+.footer {
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+}
+@media screen and (max-width:750px){
+    .container{
+        max-width:750px;
+    }
+    .head-container{
+        display:flex;
+        justify-content: space-around;
+
+        }
+    .logo-container{
+        display:flex;
+        flex-direction: column;
+    }
+    img{
+        width:100%;
+    }
+    .user-name{
+        width:100%;
+        padding-left:10em;
+    }
+    .introduction b,pre{
+        width:auto;
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        width:auto;
+    }
+    .introduction,.aside{
+        width:auto;
+    }
+    #about .introduction b{
+        font-size:medium;
+    }
+    #about .introduction pre{
+        width:auto;
+        font-size:large;
+    }
+    .user-name{
+        font-size: medium;
+    }
+    .nav-lap .nav{
+        display: none;
+    }
+    .portfolio-section{
+        padding:1em;
+        display: flex;
+        flex-direction: column;
+        width:auto;
+        background-color: #55ACEE;
+
+    }
+    .portfolio{
+        display:flex;
+        flex-direction: column;
+    }
+    .card{
+        width:auto;
+    }
+    .contact-container{
+        border:none;
+        background-color: #55ACEE;
+    }
+    button{
+        margin-left:37%;
+    }
+    .portfolio-section h3{
+        margin-left: 16%;
+        margin-bottom: 1em;
+        font-weight: bolder;
+        font-size: x-large;
+        font-size: medium;
+    }
+    #skill h3{
+    margin-top: 1em;
+    margin-left: 27%;
+    }
+    .skill-container{
+        display:flex;
+        flex-direction: column;
+    }
+    #skill .cardss{
+        display: flex;
+        justify-content: space-around;
+        width:250px;
+        height:150px;
+    }
+    .contact{
+        display: flex;
+        flex-direction:column;
+        width:auto;
+        border:none;
+    }
+    .contact b{
+        font-size: medium;
+    }
+    .social{
+        width:35px;
+        height:155px;
+        margin-top: 6em;
+    }
+    .fa{
+        width:35px;
+        height:50px;
+        padding:1px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: bisque;
+    }
+    .dropbtn {
+        background-color:white;
+        color:blue;
+        padding:16px;
+        margin-right: 2em;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #297fb9bd;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:white;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgb(0, 153, 255);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color:black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown a:hover {background-color:white;}
+      
+      .show {display: block;}
+    
+    
+
+}
