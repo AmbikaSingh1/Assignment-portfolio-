@@ -2,7 +2,7 @@ body{
     margin-bottom: 2em;
 }
 .container{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .head-container{
     display: flex;
@@ -271,8 +271,9 @@ form label{
     }
     button{
         margin-left:37%;
+    
     }
-    .portfolio-section h3{
+        .portfolio-section h3{
         margin-left: 16%;
         margin-bottom: 1em;
         font-weight: bolder;
