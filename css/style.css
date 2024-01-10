@@ -38,9 +38,10 @@ body{
     margin-bottom: 1em;
     font-weight: bolder;
 }
-img{
-    height:150px;
-    width:150px;
+.web{
+    height:250px;
+    width:1150px;
+    display: none;
 }
 .main-container{
     display: flex;
@@ -219,7 +220,7 @@ form label{
         display:flex;
         flex-direction: column;
     }
-    img{
+    .web{
         width:100%;
     }
     .user-name{
